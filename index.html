@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="./jquery.tiltedpage-scroll.js"></script>
+    <link rel="stylesheet" href="css/tiltedpage-scroll.css">
+    <title>Tyler</title>
+</head>
+
+<body>
+    <div class="main">
+        <section class="header">
+            <div class="content-box">
+                <div class="menu">
+                    <h2>Elechi Pro</h2>
+                    <button type="button"><i class="fa fa-sign-in-alt"></i>Login</button>
+                </div>
+                <div class="banner-text">
+                    <h2>I MAKE TOP RATED SOFTWARE</h2>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, laudantium!</P>
+                    <a href="">About Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="content-box">
+                <div class="container">
+                    <h1>Our service</h1>
+                    <div class="row services">
+                        <div class="col-md-3 text-center">
+                            <div class="icon">
+                                <i class="fa fa-renren"></i>
+                            </div>
+                            <h3>Web <span>Applications</span> </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iusto. Nesciunt adipisci
+                                porro temporibus quibusdam praesentium eum distinctio at deleniti.</p>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <div class="icon">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <h3>Android <span>Applications</span> </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iusto. Nesciunt adipisci
+                                porro temporibus quibusdam praesentium eum distinctio at deleniti.</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="icon">
+                                <i class="fa fa-meetup"></i>
+                            </div>
+                            <h3>Cloud <span>Solutions</span> </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iusto. Nesciunt adipisci
+                                porro temporibus quibusdam praesentium eum distinctio at deleniti.</p>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <div class="icon">
+                                <i class="fa fa-video-camera"></i>
+                            </div>
+                            <h3>Database <span>Solutions
+                                </span> </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iusto. Nesciunt adipisci
+                                porro temporibus quibusdam praesentium eum distinctio at deleniti.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  -->
+
+        <section class="feature">
+            <div class="content-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Feature Are</h2>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/sh.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="footer">
+            <div class="content-box">
+                <div class="container">
+                    <h1>Get In Touch</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form class="contact-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="your name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="your Number">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="your Email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="10" placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6 contact-info">
+                            <div class="follow">
+                                <i class="fa fa-map-marker"></i><span>XYZ Road, Ota, Akure</span>
+                            </div>
+
+                            <div class="follow">
+                                <i class="fa fa-phone"></i><span>+234 812 668 3389</span>
+                            </div>
+
+
+                            <div class="follow">
+                                <i class="fa fa-envelope-o"></i><span>developer@elechipro.com</span>
+                            </div>
+
+                            <div class="follow">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="copy">Made with <i class="fa fa-heart-o"></i> by elechipro</p>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script>
+        $(".main").tiltedpage_scroll({
+            sectionContainer: "> section",
+            angle: 10,
+            opacity: true,
+            scale: true,
+            outAnimation: true
+        });
+    </script>
+</body>
+
+</html>
